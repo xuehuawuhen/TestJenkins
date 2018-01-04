@@ -17,5 +17,6 @@ public class AppTest {
 		System.out.println("getSimpleName:"+y);
 		System.out.println("getCanonicalName:"+z);
 		System.out.println("id:"+id);
+		System.out.println("update:");
    }
 }
