@@ -12,8 +12,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
-    <suiteXmlFile>testng.xml</suiteXmlFile> -->
   </properties>
 
   <dependencies>
@@ -64,20 +62,7 @@
 	 </dependency>
   </dependencies>
   
-<!--    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build> -->
+
      <build>
         <plugins>
             <plugin>
@@ -101,4 +86,5 @@
             </plugin>
         </plugins>
     </build>
+    
 </project>
